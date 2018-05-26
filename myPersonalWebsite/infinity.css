@@ -1,0 +1,250 @@
+#myGalaxy{
+    width:30%;
+    height:auto;
+    
+}
+
+#cross1{
+    height:102px;
+    width:175px;
+    position: absolute;
+    top:100px;
+    left:44px;
+}
+
+#cross2{
+    height:102px;
+    width:175px;
+    position: absolute;
+    top:125px;
+    left:86px;
+    transform:rotate(60deg);
+}
+
+#cross3{
+    height:102px;
+    width:175px;
+    position: absolute;
+    top:124px;
+    left:1px;
+    transform:rotate(300deg);
+}
+
+#cross4{
+    height:102px;
+    width:175px;
+    position: absolute;
+    top:200px;
+    left:44px;
+}
+
+#cross5{ 
+    height:102px;
+    width:175px;
+    position: absolute;
+    top:174px;
+    left:87px;
+    transform:rotate(300deg);
+}
+#cross6{
+    height:102px;
+    width:175px;
+    position: absolute;
+    top:175px;
+    left:-1px;
+    transform:rotate(60deg);
+}
+
+#line1{
+    height:111px;
+    width:2px;
+    position: absolute;
+    top:72px;
+    left:82px;
+    transform:rotate(60deg);
+   
+}
+
+#line2{
+    height:111px;
+    width:2px;
+    position: absolute;
+    top:72px;
+    left:179px;
+    transform:rotate(300deg);
+   
+}
+
+#line3{
+    height:111px;
+    width:2px;
+    position: absolute;
+    top:151px;
+    left:217px;
+    
+}
+
+#line4{
+    height:111px;
+    width:2px;
+    position: absolute;
+    top:150px;
+    left:43px;
+  
+}
+
+#line5{
+    height:111px;
+    width:2px;
+    position: absolute;
+    top:222px;
+    left:91px;
+    transform:rotate(300deg);
+
+}
+
+#line6{
+    height:111px;
+    width:2px;
+    position: absolute;
+    top:222px;
+    left:169px;
+    transform:rotate(60deg);
+  
+}
+
+#coolestNavBar{
+    position: absolute;
+    top:0px;
+    left:30px;
+    min-width:265px;
+    min-height:395px;
+    max-width:265px;
+    max-height:395px;
+}
+
+#smLine{
+    height:100px;
+    width:2px;
+    margin:auto;
+    padding:auto;
+    background-color:white;
+    z-index: 1;
+}
+
+#mdLine{
+    position: absolute;
+    width:175px;
+    height: 2px;
+    background: white;
+    top:49px;
+    z-index: 2;
+}
+
+#lgLine{
+    height:100px;
+    width: 2px;
+    background:white;
+    
+}
+
+#tranCircle {
+    position:absolute;
+    background-color:  black;
+    border: 2px solid  rgba(204, 0, 102, 1);
+    height:270px;
+    width:270px;
+    top:45px;
+    left:-5px;
+    -webkit-border-radius:135px;
+    -moz-border-radius:135px;
+}
+#aboutMe{
+    position:absolute;
+    top:50px;
+    left:290px;
+    border:none;
+    color: white;
+    background-color: black;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+
+#aboutMe:hover{
+color:blue;
+}
+
+
+#coolestNavBar:hover {
+    -webkit-animation:spin 30s linear;
+    -moz-animation:spin 30s linear;
+    animation:spin 30s linear;
+    animation-iteration-count: infinite;
+   
+    
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+#coolestNavBar:hover #mdLine{
+    background:  white;
+    -webkit-animation:spin .5s ease-in-out ;
+    -moz-animation:spin .5s ease-in-out;
+    animation:spin .5s ease-in-out;
+    animation-iteration-count: infinite;
+   
+    
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+
+#coolestNavBar:hover #lgLine{
+    background: white;
+    -webkit-animation:spin 3s ease-in-out ;
+    -moz-animation:spin 3s ease-in-out ;
+    animation:spin 3s ease-in-out;
+    animation-iteration-count: infinite ;
+    
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+
+#coolestNavBar:hover #smLine{
+    background:  white;
+-webkit-animation:spin 3s ease-in-out;
+-moz-animation:spin 3s ease-in-out;
+animation:spin 3s ease-in-out;
+animation-iteration-count: infinite;
+
+
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+
+#coolestNavBar:hover #tranCircle{
+    background-color:  rgba(204, 0, 102, 1);
+    border-color:white;
+}
+#contactMe{
+    position:absolute;
+    top:110px;
+    left:320px;
+    border:none;
+    color: white;
+    background-color: black;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+
+#contactMe:hover{
+    color:orange;
+    }
+    
+
+
