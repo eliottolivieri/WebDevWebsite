@@ -159,7 +159,7 @@
     -webkit-border-radius:135px;
     -moz-border-radius:135px;
 }
-#aboutMe{
+.aboutMe{
     position:absolute;
     top:50px;
     left:290px;
@@ -170,16 +170,18 @@
     font-size: 40px;
 }
 
-#aboutMe:hover{
+.aboutMe:hover{
 color:blue;
 }
 
 
 #coolestNavBar:hover {
-    -webkit-animation:spin 30s linear;
-    -moz-animation:spin 30s linear;
-    animation:spin 30s linear;
+    
+    -webkit-animation:spin 5s linear;
+    -moz-animation:spin 5s linear;
+    animation:spin 5s linear;
     animation-iteration-count: infinite;
+    
    
     
 }
@@ -190,11 +192,12 @@ color:blue;
 
 
 #coolestNavBar:hover #mdLine{
-    background:  white;
+    background: white;
     -webkit-animation:spin .5s ease-in-out ;
     -moz-animation:spin .5s ease-in-out;
     animation:spin .5s ease-in-out;
     animation-iteration-count: infinite;
+    animation-delay: .5s;
    
     
 }
@@ -202,12 +205,14 @@ color:blue;
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
 
+
 #coolestNavBar:hover #lgLine{
     background: white;
     -webkit-animation:spin 3s ease-in-out ;
     -moz-animation:spin 3s ease-in-out ;
     animation:spin 3s ease-in-out;
     animation-iteration-count: infinite ;
+    animation-delay:1.5s;
     
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
@@ -220,6 +225,7 @@ color:blue;
 -moz-animation:spin 3s ease-in-out;
 animation:spin 3s ease-in-out;
 animation-iteration-count: infinite;
+animation-delay:1.5s;
 
 
 }
@@ -231,7 +237,7 @@ animation-iteration-count: infinite;
     background-color:  rgba(204, 0, 102, 1);
     border-color:white;
 }
-#contactMe{
+.contactMe{
     position:absolute;
     top:110px;
     left:320px;
@@ -242,9 +248,21 @@ animation-iteration-count: infinite;
     font-size: 40px;
 }
 
-#contactMe:hover{
+.contactMe:hover{
     color:orange;
     }
-    
 
+#effect2:hover ~ #tranCircle{
+    background:  orange;
+-webkit-animation:spin 3s ease-in-out;
+-moz-animation:spin 3s ease-in-out;
+animation:spin 3s ease-in-out;
+animation-iteration-count: infinite;
+
+
+
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
 
