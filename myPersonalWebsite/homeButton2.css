@@ -1,0 +1,179 @@
+#contactMe{
+    position:absolute;
+    border:none;
+    color: white;
+    background-color: black;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    top:5px;
+    left:5px;
+}
+
+#contactMe:hover{
+color:orange;
+}
+
+
+    #Bcroix1{
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:13px;
+        top:11px;
+    }
+    
+    #Bcroix2{
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:13px;
+        top:26px;
+    }
+    
+    #Bcroix3{
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:7px;
+        top:14px;
+        transform:rotate(60deg);
+    }
+    
+    #Bcroix4{
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:21px;
+        top:22px;
+        transform:rotate(60deg);
+    }
+    
+    #Bcroix5{ 
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:19px;
+        top:14px;
+        transform:rotate(300deg);
+    }
+    
+    #Bcroix6{
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:6px;
+        top:22px;
+        transform:rotate(300deg);
+    }
+
+    #coolestNavBut2{
+        position: absolute;
+        top:110px;
+        left:330px;
+        min-width:300px;
+        min-height:54px;
+        max-width:300px;
+        max-height:54px;
+    }
+    
+    #teenyLine{
+        height:15px;
+        width:1px;
+        margin:auto;
+        padding:auto;
+        background:black;
+       
+    }
+    
+    #borLine{
+        position: absolute;
+        width:27px;
+        height: 1px;
+        background: black;
+        top:7px;
+        right:0px;
+        
+    
+    }
+    
+    #gigLine{
+        position: absolute;
+        height:17px;
+        width: 1px;
+        background:black;
+        top:0px;
+        left:10px;
+        
+        
+    }
+    
+    #AmonCircle {
+        position:absolute;
+        background-color:  rgba(0, 0, 0, 0);
+        
+        border: 2px solid white;
+        height:49px;
+        width:49px;
+        
+        right:0px;
+        -webkit-border-radius:25px;
+        -moz-border-radius:25px;
+        margin-top:auto;
+    }
+    
+    
+    
+    #coolestNavBut2:hover #borLine{
+        background: white;
+        -webkit-animation:spin 1s ease-in-out;
+        -moz-animation:spin 1s ease-in-out;
+        animation:spin 1s ease-in-out;
+        animation-iteration-count: 1;
+        
+    
+       
+        
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+    
+    
+    #coolestNavBut2:hover #gigLine{
+        background: white;
+        -webkit-animation:spin 1s ease-in-out ;
+        -moz-animation:spin 1s ease-in-out ;
+        animation:spin 1s ease-in-out;
+        animation-iteration-count: 1 ;
+       
+        
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+    
+    #coolestNavBut2:hover #teenyLine{
+        background:  white;
+    -webkit-animation:spin 1s ease-in-out;
+    -moz-animation:spin 1s ease-in-out;
+    animation:spin 1s ease-in-out;
+    animation-iteration-count: 1;
+    
+    
+    
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+    
+    #coolestNavBut2:hover #AmonCircle{
+        background-color:  orange;
+        border-color:white;
+    }
+    

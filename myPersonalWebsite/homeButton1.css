@@ -1,0 +1,192 @@
+#aboutMe{
+    position:absolute;
+    border:none;
+    color: white;
+    background-color: black;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    float:left;
+}
+
+#aboutMe:hover{
+color:rgb(32, 129, 255);
+}
+
+#contactMe{
+    position:absolute;
+    top:110px;
+    left:320px;
+    border:none;
+    color: white;
+    background-color: black;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+
+#contactMe:hover{
+    color:orange;
+    }
+
+    #croix1{
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:13px;
+        top:11px;
+    }
+    
+    #croix2{
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:13px;
+        top:26px;
+    }
+    
+    #croix3{
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:7px;
+        top:14px;
+        transform:rotate(60deg);
+    }
+    
+    #croix4{
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:21px;
+        top:22px;
+        transform:rotate(60deg);
+    }
+    
+    #croix5{ 
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:19px;
+        top:14px;
+        transform:rotate(300deg);
+    }
+    
+    #croix6{
+        position:absolute;
+        height:17px;
+        width:27px;
+        float:right;
+        right:6px;
+        top:22px;
+        transform:rotate(300deg);
+    }
+
+    #coolestNavBut{
+        position: absolute;
+        top:50px;
+        left:300px;
+        min-width:250px;
+        min-height:54px;
+        max-width:250px;
+        max-height:54px;
+    }
+    
+    #tinyLine{
+        height:15px;
+        width:1px;
+        margin:auto;
+        padding:auto;
+        background:black;
+       
+    }
+    
+    #regLine{
+        position: absolute;
+        width:27px;
+        height: 1px;
+        background: black;
+        top:7px;
+        right:0px;
+        
+    
+    }
+    
+    #bigLine{
+        position: absolute;
+        height:17px;
+        width: 1px;
+        background:black;
+        top:0px;
+        left:10px;
+        
+        
+    }
+    
+    #monCircle {
+        position:absolute;
+        background-color:  rgba(0, 0, 0, 0);
+        
+        border: 2px solid white;
+        height:49px;
+        width:49px;
+        
+        right:0px;
+        -webkit-border-radius:25px;
+        -moz-border-radius:25px;
+        margin-top:auto;
+    }
+    
+    
+    
+    #coolestNavBut:hover #regLine{
+        background: white;
+        -webkit-animation:spin 1s ease-in-out;
+        -moz-animation:spin 1s ease-in-out;
+        animation:spin 1s ease-in-out;
+        animation-iteration-count: 1;
+        
+    
+       
+        
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+    
+    
+    #coolestNavBut:hover #bigLine{
+        background: white;
+        -webkit-animation:spin 1s ease-in-out ;
+        -moz-animation:spin 1s ease-in-out ;
+        animation:spin 1s ease-in-out;
+        animation-iteration-count: 1 ;
+       
+        
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+    
+    #coolestNavBut:hover #tinyLine{
+        background:  white;
+    -webkit-animation:spin 1s ease-in-out;
+    -moz-animation:spin 1s ease-in-out;
+    animation:spin 1s ease-in-out;
+    animation-iteration-count: 1;
+    
+    
+    
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+    
+    #coolestNavBut:hover #monCircle{
+        background-color:  rgb(32, 129, 255);
+        border-color:white;
+    }
+    
