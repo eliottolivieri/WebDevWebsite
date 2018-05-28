@@ -4,6 +4,8 @@
     <head>
         <title>Eliott's Portfolio</title>
 
+        <link rel="stylesheet" type="text/css" href="reset.css">
+
         <link href="https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Istok+Web:700" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="infinity.css">
@@ -11,15 +13,23 @@
         <link rel="stylesheet" type="text/css" href="homeButton1.css">
          <!--  <img  id="myGalaxy" src="https://media2.giphy.com/media/3o7Zen3RCzrnhHnSkU/giphy.gif"/> -->
          <link rel="stylesheet" type="text/css" href="homeButton2.css"> 
+
+         <script src="myRotater.js"></script> 
+
+         
     
     </head>
 
     <body style="background-color:black; width:100%; min-height: 900px; margin-top: 0px;">
     
-    
-      
+
+    <!--    
+        <div style="z-index:999; background-color: black; width:auto; height:auto; position: absolute; top: 0px; left:0px;">
+            <img id="menuSlice"src="menuSlice.png">
+        </div>
+    -->      
                
-    <div id="coolestNavBar">    
+    <div id="coolestNavBar" onmouseover="mouseOverNavBar()" onmouseout="mouseOutNavBar()">    
         
             <p id="tranCircle"></p>
 
@@ -78,9 +88,9 @@
         </div>
     </div>    
 
-<!-- Below is the script for the menus buttons/////////////////////////////////////////// -->
 
-    <div id="coolestNavBut">    
+
+    <div id="coolestNavBut" onmouseover="mouseOverBlue()" onmouseout="mouseOutBlue()">    
         
         
     <button id="aboutMe">about</button>
@@ -120,7 +130,7 @@
 
 </div>       
 
-<div id="coolestNavBut2">    
+<div id="coolestNavBut2" onmouseover="mouseOverOJ()" onmouseout="mouseOutOJ()">    
         
         
     <button id="contactMe">contact</button>
@@ -154,7 +164,10 @@
 
    
 
-</div>     
+</div>   
+
+
+
 
     </body>
 </html>

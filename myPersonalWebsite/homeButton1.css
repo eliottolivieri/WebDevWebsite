@@ -9,23 +9,10 @@
 }
 
 #aboutMe:hover{
-color:rgb(32, 129, 255);
+color:blue;
 }
 
-#contactMe{
-    position:absolute;
-    top:110px;
-    left:320px;
-    border:none;
-    color: white;
-    background-color: black;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 40px;
-}
 
-#contactMe:hover{
-    color:orange;
-    }
 
     #croix1{
         position:absolute;
@@ -89,9 +76,9 @@ color:rgb(32, 129, 255);
         position: absolute;
         top:50px;
         left:300px;
-        min-width:250px;
+        min-width:210px;
         min-height:54px;
-        max-width:250px;
+        max-width:210px;
         max-height:54px;
     }
     
@@ -144,9 +131,9 @@ color:rgb(32, 129, 255);
     
     #coolestNavBut:hover #regLine{
         background: white;
-        -webkit-animation:spin 1s ease-in-out;
-        -moz-animation:spin 1s ease-in-out;
-        animation:spin 1s ease-in-out;
+        -webkit-animation:spin .5s ease-in-out;
+        -moz-animation:spin .5s ease-in-out;
+        animation:spin .5s ease-in-out;
         animation-iteration-count: 1;
         
     
@@ -160,9 +147,9 @@ color:rgb(32, 129, 255);
     
     #coolestNavBut:hover #bigLine{
         background: white;
-        -webkit-animation:spin 1s ease-in-out ;
-        -moz-animation:spin 1s ease-in-out ;
-        animation:spin 1s ease-in-out;
+        -webkit-animation:spin .5s ease-in-out ;
+        -moz-animation:spin .5s ease-in-out ;
+        animation:spin .5s ease-in-out;
         animation-iteration-count: 1 ;
        
         
@@ -173,9 +160,9 @@ color:rgb(32, 129, 255);
     
     #coolestNavBut:hover #tinyLine{
         background:  white;
-    -webkit-animation:spin 1s ease-in-out;
-    -moz-animation:spin 1s ease-in-out;
-    animation:spin 1s ease-in-out;
+    -webkit-animation:spin .5s ease-in-out;
+    -moz-animation:spin .5s ease-in-out;
+    animation:spin .5s ease-in-out;
     animation-iteration-count: 1;
     
     
@@ -186,7 +173,23 @@ color:rgb(32, 129, 255);
     @keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
     
     #coolestNavBut:hover #monCircle{
-        background-color:  rgb(32, 129, 255);
+        background-color:  blue;
         border-color:white;
     }
+
+    /*animation of main wheel through button..
+    /////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////// */
+
+    @-moz-keyframes spin180Plus { 100% { -moz-transform: rotate(240deg); } }
+    @-webkit-keyframes spin180Plus { 100% { -webkit-transform: rotate(240deg); } }
+    @keyframes spin180Plus { 100% { -webkit-transform: rotate(240deg); transform:rotate(240deg); } }
     
+
+    @-moz-keyframes spin120Plus { 100% { -moz-transform: rotate(120deg); } }
+    @-webkit-keyframes spin120Plus { 100% { -webkit-transform: rotate(120deg); } }
+    @keyframes spin120Plus { 100% { -webkit-transform: rotate(120deg); transform:rotate(120deg); } }
+    
+
+
+

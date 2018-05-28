@@ -56,27 +56,27 @@
 }
 
 #line1{
-    height:111px;
+    height:100px;
     width:2px;
     position: absolute;
-    top:72px;
-    left:82px;
+    top:75px;
+    left:85px;
     transform:rotate(60deg);
    
 }
 
 #line2{
-    height:111px;
+    height:100px;
     width:2px;
     position: absolute;
-    top:72px;
-    left:179px;
+    top:75px;
+    left:174px;
     transform:rotate(300deg);
    
 }
 
 #line3{
-    height:111px;
+    height:100px;
     width:2px;
     position: absolute;
     top:151px;
@@ -85,7 +85,7 @@
 }
 
 #line4{
-    height:111px;
+    height:100px;
     width:2px;
     position: absolute;
     top:150px;
@@ -94,21 +94,21 @@
 }
 
 #line5{
-    height:111px;
+    height:100px;
     width:2px;
     position: absolute;
-    top:222px;
-    left:91px;
+    top:225px;
+    left:88px;
     transform:rotate(300deg);
 
 }
 
 #line6{
-    height:111px;
+    height:100px;
     width:2px;
     position: absolute;
-    top:222px;
-    left:169px;
+    top:225px;
+    left:173px;
     transform:rotate(60deg);
   
 }
@@ -152,10 +152,10 @@
 #tranCircle {
     position:absolute;
     background-color:  black;
-    border: 2px solid  rgba(204, 0, 102, 1);
+    border: 2px solid  red;
     height:270px;
     width:270px;
-    top:45px;
+    top:60px;
     left:-5px;
     -webkit-border-radius:135px;
     -moz-border-radius:135px;
@@ -164,17 +164,17 @@
 
 #coolestNavBar:hover {
     
-    -webkit-animation:spin 4s linear;
-    -moz-animation:spin 4s linear;
-    animation:spin 4s linear;
+    -webkit-animation:spinz 4s linear;
+    -moz-animation:spinz 4s linear;
+    animation:spinz 4s linear;
     animation-iteration-count: infinite;
-    animation-delay: 1s;
+    
    
     
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spinz { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spinz { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spinz { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 
 
@@ -184,8 +184,8 @@
     -moz-animation:spin 1s ease-in-out;
     animation:spin 1s ease-in-out;
     animation-iteration-count: infinite;
-    animation-delay: 0s;
-    opacity:0;    
+    animation-delay: 1s;
+    opacity:1;    
     transition-delay:0s;
     
 
@@ -199,11 +199,11 @@
 
 #coolestNavBar:hover #lgLine{
     background: white;
-    -webkit-animation:spin 1s linear ;
-    -moz-animation:spin 1s linear ;
-    animation:spin 1s linear;
-    animation-iteration-count: 1 ;
-   
+    -webkit-animation:spin 1s ease-out ;
+    -moz-animation:spin 1s ease-out ;
+    animation:spin 1s ease-out;
+    animation-iteration-count: infinite ;
+    animation-delay: 2s;
     
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
@@ -215,8 +215,8 @@
 -webkit-animation:spin 1s linear;
 -moz-animation:spin 1s linear;
 animation:spin 1s linear;
-animation-iteration-count: 1;
-
+animation-iteration-count: infinite;
+animation-delay: 2s;
 
 
 }
@@ -225,6 +225,22 @@ animation-iteration-count: 1;
 @keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
 
 #coolestNavBar:hover #tranCircle{
-    background-color:  rgba(204, 0, 102, 1);
+    background-color:  red;
+    border: 2px solid;
     border-color:white;
 }
+
+#menuSlice{
+    transform:scale(5);
+    -webkit-animation:pinz 1s ease-out;
+    -moz-animation:pinz 1s ease-out;
+    animation:pinz 1s ease-out;
+    animation-iteration-count: 1;
+    
+   
+    
+}
+
+@-moz-keyframes pinz { 100% { -moz-transform: scale(1); } }
+@-webkit-keyframes pinz { 100% { -webkit-transform: scale(1); } }
+@keyframes pinz { 100% { -webkit-transform: scale(1); transform:scale(1); } }
