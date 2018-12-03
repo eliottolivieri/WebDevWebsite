@@ -1,3 +1,4 @@
+/*
 
 function mouseOverBlue() {
 
@@ -100,3 +101,5 @@ function mouseOutNavBar() {
     document.getElementById("tranCircle").style.borderColor = "red";
 
 }
+
+*/
